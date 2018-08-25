@@ -1,0 +1,11 @@
+{
+    "site": "_SITE_",
+    "name": "_NAME_",
+    "request_rules": [],
+    "signal_rules": [],
+    "templated_rules": [],
+    "advanced_rules": [],
+    "rule_lists": [],
+    "custom_signals": [],
+    "custom_alerts": []
+}
