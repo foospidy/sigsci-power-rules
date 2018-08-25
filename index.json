@@ -6,6 +6,7 @@
             "name": "attack-plus-error",
             "display_name": "Attack Plus Error",
             "description": "Correlates attack payloads with application error response codes to identify active attempts at exploiting an application bug.",
+            "dependency": "None",
             "version": "1.0",
             "category": "Vulnerability Discovery",
             "tags": ["attack", "error", "threat", "detection", "vulnerability"]
