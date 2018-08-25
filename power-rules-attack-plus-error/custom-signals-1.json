@@ -1,0 +1,6 @@
+{
+  "shortName": "Attack Error",
+  "description": "Attack payload that caused an application error.",
+  "tagName": "site.attack-error",
+  "longName": "Attack Error"
+}

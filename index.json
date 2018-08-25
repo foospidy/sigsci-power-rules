@@ -3,12 +3,12 @@
     "description": "A public repository of Signal Sciences power rules.",
     "rule-packs": [
         {
-            "name": "",
-            "display_name": "",
-            "description": "",
-            "version": "",
-            "category": "",
-            "tags": [""]
+            "name": "attack-plus-error",
+            "display_name": "Attack Plus Error",
+            "description": "Correlates attack payloads with application error response codes to identify active attempts at exploiting an application bug.",
+            "version": "1.0",
+            "category": "Vulnerability Discovery",
+            "tags": ["attack", "error", "threat", "detection", "vulnerability"]
         }
     ]
 }

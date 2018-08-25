@@ -1,0 +1,9 @@
+{
+  "interval": 1,
+  "enabled": true,
+  "action": "info",
+  "fieldName": "remoteIP",
+  "tagName": "site.attack-error",
+  "longName": "Attack Plus Error",
+  "threshold": 1
+}
