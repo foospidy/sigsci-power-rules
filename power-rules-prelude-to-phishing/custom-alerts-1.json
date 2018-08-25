@@ -1,0 +1,9 @@
+{
+  "interval": 10,
+  "enabled": true,
+  "action": "info",
+  "fieldName": "remoteIP",
+  "tagName": "site.google-xlate",
+  "longName": "Prelude To Phshing",
+  "threshold": 5
+}

@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "signal": "site.google-xlate",
+  "groupOperator": "all",
+  "reason": "Signal on Google translate.",
+  "expiration": "",
+  "action": "none",
+  "conditions": [
+    {
+      "operator": "exists",
+      "field": "requestHeader",
+      "conditions": [
+        {
+          "operator": "equals",
+          "field": "name",
+          "type": "single",
+          "value": "Referer"
+        }
+      ],
+      "type": "multival",
+      "groupOperator": "all"
+    },
+    {
+      "groupOperator": "any",
+      "conditions": [
+        {
+          "operator": "exists",
+          "field": "requestHeader",
+          "conditions": [
+            {
+              "operator": "like",
+              "field": "valueString",
+              "type": "single",
+              "value": "https://translate.googleusercontent.com*"
+            },
+            {
+              "operator": "contains",
+              "field": "valueString",
+              "type": "single",
+              "value": "translate.google.com"
+            }
+          ],
+          "type": "multival",
+          "groupOperator": "any"
+        }
+      ],
+      "type": "group"
+    }
+  ]
+}
