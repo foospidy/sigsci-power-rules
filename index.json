@@ -12,7 +12,7 @@
             "tags": ["attack", "error", "threat", "detection", "vulnerability"]
         },
         {
-            "name": "prelude-to-phshing",
+            "name": "prelude-to-phishing",
             "display_name": "Prelude To Phishing",
             "description": "A spike in requests from Google Translate may be an indicator that phishing attacks are imminent. Appropriate action would be to caution staff and site users.",
             "dependency": "None",
