@@ -8,6 +8,7 @@ env:
 template:
 	mkdir -p templates
 	cat template.json | sed -e "s/_SITE_/$(SITE)/" | sed -e "s/_NAME_/$(NAME)/" > templates/$(NAME).json
+	cat templates/$(NAME).json
 
 rulepack:
 	source .env/bin/activate && ./generate-rulepack.sh $(NAME)
