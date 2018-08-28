@@ -1,0 +1,9 @@
+{
+  "interval": 1,
+  "enabled": true,
+  "action": "flagged",
+  "fieldName": "remoteIP",
+  "tagName": "site.attack-payload",
+  "longName": "Aggregate Attack Payloads",
+  "threshold": 10
+}

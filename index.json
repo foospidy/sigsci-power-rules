@@ -19,6 +19,15 @@
             "version": "1.0",
             "category": "Threat Detection",
             "tags": ["threat", "phishing"]
+        },
+        {
+            "name": "aggregate-attack-payloads",
+            "display_name": "Aggregate Attack Payloads",
+            "description": "Creates an attack payload signal, used to aggregate attacks for a single custom alert threshold to flag IPs to block subsequent malicious requests.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Attack Detection",
+            "tags": ["attack", "detection", "threat"]
         }
     ]
 }

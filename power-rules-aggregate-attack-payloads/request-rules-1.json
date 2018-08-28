@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "signal": "site.attack-payload",
+  "groupOperator": "any",
+  "reason": "Aggregate attack signal.",
+  "expiration": "",
+  "action": "none",
+  "conditions": [
+    {
+      "operator": "exists",
+      "field": "signal",
+      "conditions": [
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "USERAGENT"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "BACKDOOR"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "CODEINJECTION"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "CMDEXE"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "XSS"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "TRAVERSAL"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "RESPONSESPLIT"
+        },
+        {
+          "operator": "equals",
+          "field": "signalType",
+          "type": "single",
+          "value": "SQLI"
+        }
+      ],
+      "type": "multival",
+      "groupOperator": "any"
+    }
+  ]
+}

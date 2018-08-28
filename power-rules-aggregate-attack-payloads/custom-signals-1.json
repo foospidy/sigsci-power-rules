@@ -1,0 +1,6 @@
+{
+  "shortName": "Attack Payload",
+  "description": "A request containing an attack payload.",
+  "tagName": "site.attack-payload",
+  "longName": "Attack Payload"
+}
