@@ -28,6 +28,15 @@
             "version": "1.0",
             "category": "Attack Detection",
             "tags": ["attack", "detection", "threat"]
+        },
+        {
+            "name": "block-attacks-no-threshold",
+            "display_name": "Block Attacks No Threshold",
+            "description": "Block any attack request immediately.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Attack Detection",
+            "tags": ["attack", "detection", "threat", "block"]
         }
     ]
 }
