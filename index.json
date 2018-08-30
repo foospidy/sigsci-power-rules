@@ -46,6 +46,15 @@
             "version": "1.0",
             "category": "Attack Detection",
             "tags": ["attack", "detection", "threat", "visibility", "graphql"]
+        },
+        {
+            "name": "cve-2014-0094-0112-0114",
+            "display_name": "CVE-2014-0094-0112-0114",
+            "description": "Detects RCE vulnerabilities in older versions of Struts, CVE-2014-0094, CVE-2014-0112, CVE-2014-0114.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Attack Detection",
+            "tags": ["attack", "detection", "threat", "visibility", "struts"]
         }
     ]
 }
