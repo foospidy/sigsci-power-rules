@@ -1,0 +1,6 @@
+{
+  "shortName": "GraphiQL",
+  "description": "Request to GraphiQL. GraphiQL is useful during testing and development but should be disabled in production by default.",
+  "tagName": "site.graphiql",
+  "longName": "GraphiQL"
+}

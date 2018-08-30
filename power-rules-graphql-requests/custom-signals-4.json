@@ -1,0 +1,6 @@
+{
+  "shortName": "GraphQL-DoS",
+  "description": "Nested query that could be abused to cause a DoS. Ensure an acceptable max query depth is enforced.",
+  "tagName": "site.graphql-dos",
+  "longName": "GraphQL-DoS"
+}

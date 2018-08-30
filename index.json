@@ -37,6 +37,15 @@
             "version": "1.0",
             "category": "Attack Detection",
             "tags": ["attack", "detection", "threat", "block"]
+        },
+        {
+            "name": "graphql-requests",
+            "display_name": "GraphQL Requests",
+            "description": "Identifies and inspects requests associated with GraphQL. Inspections include: Requests to graphiql, which should never be enabled in production servers, GraphQL requests not properly formatted, Injection attacks on raw graphql posts, Nested queries that could be abused to cause a DoS.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Attack Detection",
+            "tags": ["attack", "detection", "threat", "visibility", "graphql"]
         }
     ]
 }

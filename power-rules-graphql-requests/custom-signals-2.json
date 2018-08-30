@@ -1,0 +1,6 @@
+{
+  "shortName": "GraphQL Invalid",
+  "description": "GraphQL request not properly formatted.",
+  "tagName": "site.graphql-invalid",
+  "longName": "GraphQL Invalid"
+}
