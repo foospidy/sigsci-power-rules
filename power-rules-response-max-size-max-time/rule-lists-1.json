@@ -1,0 +1,9 @@
+{
+  "description": "A list of general configurations for advanced rules.",
+  "entries": [
+    "response-time-max,1500",
+    "response-size-max,5000"
+  ],
+  "type": "string",
+  "name": "Advanced Rule Config"
+}
