@@ -1,0 +1,6 @@
+{
+  "shortName": "Over Max Size",
+  "description": "The response size exceeds the configured max.",
+  "tagName": "site.over-max-size",
+  "longName": "Over Max Size"
+}

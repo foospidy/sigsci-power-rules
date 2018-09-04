@@ -64,6 +64,15 @@
             "version": "1.0",
             "category": "Vulnerability Management",
             "tags": ["attack", "detection", "scanners", "scanning"]
+        },
+        {
+            "name": "response-max-size-max-time",
+            "display_name": "Max Response Size and Response Time",
+            "description": "Detects responses that exceed a configured max response size or max response size. Uses a list to manage configuration of max values.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Attack Detection",
+            "tags": ["attack", "detection", "exploit", "execution", "data"]
         }
     ]
 }

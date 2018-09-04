@@ -1,0 +1,6 @@
+{
+  "shortName": "Over Max Time",
+  "description": "The response time exceeds the configured max.",
+  "tagName": "site.over-max-time",
+  "longName": "Over Max Time"
+}
