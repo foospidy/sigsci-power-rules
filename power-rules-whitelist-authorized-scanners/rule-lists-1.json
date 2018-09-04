@@ -1,0 +1,8 @@
+{
+  "description": "Authorized IP list for whitelisting scanners.",
+  "entries": [
+    "64.39.96.0/20"
+  ],
+  "type": "ip",
+  "name": "Authorized IP"
+}

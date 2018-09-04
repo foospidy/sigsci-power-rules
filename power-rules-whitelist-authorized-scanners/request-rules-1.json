@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "signal": "site.authorized-ip",
+  "groupOperator": "all",
+  "reason": "Whitelisted scanners by IP.",
+  "expiration": "",
+  "action": "allow",
+  "conditions": [
+    {
+      "operator": "inList",
+      "field": "ip",
+      "type": "single",
+      "value": "site.authorized-ip"
+    }
+  ]
+}

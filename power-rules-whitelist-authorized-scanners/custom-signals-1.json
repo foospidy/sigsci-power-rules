@@ -1,0 +1,6 @@
+{
+  "shortName": "Authorized IP",
+  "description": "Whitelisted scanners by IP.",
+  "tagName": "site.authorized-ip",
+  "longName": "Authorized IP"
+}

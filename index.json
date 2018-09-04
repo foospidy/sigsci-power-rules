@@ -55,6 +55,15 @@
             "version": "1.0",
             "category": "Attack Detection",
             "tags": ["attack", "detection", "threat", "visibility", "struts"]
+        },
+        {
+            "name": "whitelist-authorized-scanners",
+            "display_name": "Whitelist Authorized Scanners4",
+            "description": "Use a list to Whitelist IP addresses you use for vulnerability scanning. The default list is configured with the Qualys scanners IP range. Reference: https://community.qualys.com/thread/9745",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Vulnerability Management",
+            "tags": ["attack", "detection", "scanners", "scanning"]
         }
     ]
 }
