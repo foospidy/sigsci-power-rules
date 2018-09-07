@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "signal": "site.rapid7-ip",
+  "groupOperator": "all",
+  "reason": "Rapid7 scanners by IP.",
+  "expiration": "",
+  "action": "allow",
+  "conditions": [
+    {
+      "operator": "inList",
+      "field": "ip",
+      "type": "single",
+      "value": "site.rapid7-ip"
+    }
+  ]
+}

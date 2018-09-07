@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "signal": "site.qualys-ip",
+  "groupOperator": "all",
+  "reason": "Qualys scanners by IP.",
+  "expiration": "",
+  "action": "allow",
+  "conditions": [
+    {
+      "operator": "inList",
+      "field": "ip",
+      "type": "single",
+      "value": "site.qualys-ip"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "shortName": "Tenable Scanner IP",
+  "description": "Tenable scanners by IP.",
+  "tagName": "site.teanable-ip",
+  "longName": "Tenable Scanner IP"
+}
