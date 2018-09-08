@@ -73,6 +73,33 @@
             "version": "1.0",
             "category": "Attack Detection",
             "tags": ["attack", "detection", "exploit", "execution", "data"]
+        },
+        {
+            "name": "qualys-scanner",
+            "display_name": "Qualys Scanner",
+            "description": "Whitelist Qualys scanner IP addresses.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Vulnerability Management",
+            "tags": ["attack", "detection", "scanners", "scanning"]
+        },
+        {
+            "name": "rapid7-scanner",
+            "display_name": "Rapid7 Scanner",
+            "description": "Whitelist Rapid7 scanner IP addresses.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Vulnerability Management",
+            "tags": ["attack", "detection", "scanners", "scanning"]
+        },
+        {
+            "name": "tenable-scanner",
+            "display_name": "Tenable Scanner",
+            "description": "Whitelist Tenable scanner IP addresses.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Vulnerability Management",
+            "tags": ["attack", "detection", "scanners", "scanning"]
         }
     ]
 }
