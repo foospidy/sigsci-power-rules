@@ -1,0 +1,6 @@
+{
+  "shortName": "Rapid7 Scanner IP",
+  "description": "Rapid7 scanners by IP.",
+  "tagName": "site.rapid7-ip",
+  "longName": "Rapid7 Scanner IP"
+}

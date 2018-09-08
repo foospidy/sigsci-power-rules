@@ -1,0 +1,10 @@
+{
+  "description": "Qualys scanners by IP.",
+  "entries": [
+    "64.39.96.0/20",
+    "62.210.136.128/25",
+    "167.216.252.0/26"
+  ],
+  "type": "ip",
+  "name": "Qualys IP"
+}

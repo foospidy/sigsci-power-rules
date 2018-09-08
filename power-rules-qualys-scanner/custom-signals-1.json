@@ -1,0 +1,6 @@
+{
+  "shortName": "Qualys Scanner IP",
+  "description": "Qualys scanners by IP.",
+  "tagName": "site.qualys-ip",
+  "longName": "Qualys Scanner IP"
+}

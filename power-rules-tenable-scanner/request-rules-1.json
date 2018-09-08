@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "signal": "site.tenable-ip",
+  "groupOperator": "all",
+  "reason": "Tenable scanners by IP.",
+  "expiration": "",
+  "action": "allow",
+  "conditions": [
+    {
+      "operator": "inList",
+      "field": "ip",
+      "type": "single",
+      "value": "site.tenable-ip"
+    }
+  ]
+}
