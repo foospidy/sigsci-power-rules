@@ -1,0 +1,6 @@
+{
+  "shortName": "Hash DoS",
+  "description": "Potential attempts at exploiting hash dos vulnerability.",
+  "tagName": "site.hash-dos",
+  "longName": "Hash DoS"
+}
