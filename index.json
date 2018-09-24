@@ -100,6 +100,15 @@
             "version": "1.0",
             "category": "Vulnerability Management",
             "tags": ["attack", "detection", "scanners", "scanning"]
+        },
+        {
+            "name": "hash-dos",
+            "display_name": "Hash DoS",
+            "description": "Detect potential attempts at hash dos.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Vulnerability Management",
+            "tags": ["attack", "detection", "dos"]
         }
     ]
 }
