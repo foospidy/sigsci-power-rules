@@ -1,0 +1,9 @@
+{
+  "description": "A request with a missing or empty accept header.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.http-accept",
+  "longName": "HTTP Accept",
+  "shortName": "HTTP Accept",
+  "informational": false
+}

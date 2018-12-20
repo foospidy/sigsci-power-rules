@@ -1,0 +1,9 @@
+{
+  "description": "A request with an invalid or malformed path in the URI.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.http-path",
+  "longName": "HTTP Path",
+  "shortName": "HTTP Path",
+  "informational": false
+}

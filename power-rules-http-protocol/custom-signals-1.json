@@ -1,0 +1,9 @@
+{
+  "description": "A request containing a HTTP violation.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.http-protocol",
+  "longName": "HTTP Protocol",
+  "shortName": "HTTP Protocol",
+  "informational": false
+}

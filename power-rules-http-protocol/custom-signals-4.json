@@ -1,0 +1,9 @@
+{
+  "description": "A request with a missing or empty host header.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.http-host",
+  "longName": "HTTP Host",
+  "shortName": "HTTP Host",
+  "informational": false
+}

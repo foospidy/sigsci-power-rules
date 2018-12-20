@@ -1,0 +1,9 @@
+{
+  "description": "A request with an invalid X-Forwarded-For header value.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.http-xff",
+  "longName": "HTTP XFF",
+  "shortName": "HTTP XFF",
+  "informational": false
+}
