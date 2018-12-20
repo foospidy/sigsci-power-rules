@@ -39,6 +39,15 @@
             "tags": ["attack", "detection", "threat", "block"]
         },
         {
+            "name": "bots",
+            "display_name": "Bots",
+            "description": "Detect bots and bad-bots.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Anomaly Detection",
+            "tags": ["detection", "threat", "bots", "visibility"]
+        },
+        {
             "name": "graphql-requests",
             "display_name": "GraphQL Requests",
             "description": "Identifies and inspects requests associated with GraphQL. Inspections include: Requests to graphiql, which should never be enabled in production servers, GraphQL requests not properly formatted, Injection attacks on raw graphql posts, Nested queries that could be abused to cause a DoS.",
@@ -109,6 +118,15 @@
             "version": "1.0",
             "category": "Vulnerability Management",
             "tags": ["attack", "detection", "dos"]
+        },
+        {
+            "name": "http-protocol",
+            "display_name": "HTTP Protocol",
+            "description": "Detect HTTP spec violations.",
+            "dependency": "None",
+            "version": "1.0",
+            "category": "Anomaly Management",
+            "tags": ["http", "detection", "visibility", "anomaly"]
         }
     ]
 }
