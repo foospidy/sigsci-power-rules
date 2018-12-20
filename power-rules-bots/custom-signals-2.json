@@ -1,0 +1,9 @@
+{
+  "description": "Request identified as a bad bot request.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.bad-bot",
+  "longName": "Bad Bot",
+  "shortName": "Bad Bot",
+  "informational": false
+}

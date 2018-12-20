@@ -1,0 +1,9 @@
+{
+  "description": "Request identified as a bot request.",
+  "needsResponse": false,
+  "configurable": false,
+  "tagName": "site.bot",
+  "longName": "Bot",
+  "shortName": "Bot",
+  "informational": false
+}
