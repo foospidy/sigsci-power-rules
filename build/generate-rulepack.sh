@@ -21,7 +21,7 @@ echo "Generating rulepack from ${1} from ${SITE}..."
 
 mkdir -p ${POWER_RULES_DIR_PREFIX}${NAME}
 
-declare -a arr=("request-rules" "signal-rules" "templated-rules" "advanced-rules" "rule-lists" "custom-signals" "custom-alerts")
+declare -a arr=("request-rules" "signal-rules" "templated-rules" "advanced-rules" "rule-lists" "site-lists" "corp-lists" "custom-signals" "site-signals" "corp-signals" "custom-alerts")
 
 for type in "${arr[@]}";
 do
@@ -36,6 +36,16 @@ do
         id_field=".id"
 
         if [ $type == "custom-signals" ];
+        then
+            id_field=".tagName"
+        fi
+
+        if [ $type == "site-signals" ];
+        then
+            id_field=".tagName"
+        fi
+
+        if [ $type == "corp-signals" ];
         then
             id_field=".tagName"
         fi
