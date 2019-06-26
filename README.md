@@ -24,7 +24,7 @@ To contribute rule packs to this repostory:
 
 1. Create the set of rules in your dashboard.
 2. Create a rule pack template using the command: `cd build && make template SITE=<site_containing_rules> NAME=<name-of-rule-pack?`
-3. Step to generates the file `templates/<name-of-rule-pack>`, open this file in an editor.
+3. Step two generates the file `templates/<name-of-rule-pack>`, open this file in an editor.
 4. For each rule type there is an array, add the rule IDs as an element in the corrosponding array. Example:
 
 ```json
