@@ -6,6 +6,10 @@
     "templated_rules": [],
     "advanced_rules": [],
     "rule_lists": [],
+    "site_lists": [],
+    "corp_lists": [],
     "custom_signals": [],
+    "site_signals": [],
+    "corp_signals": [],
     "custom_alerts": []
 }
